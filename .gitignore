@@ -1,0 +1,25 @@
+# Real player data — never committed. Foundry exports live outside this repo,
+# but ignore the filename pattern anyway in case one gets dropped in by mistake.
+FVTT-*-Char-Sheet-*.json
+*.fvtt.json
+/data/
+/exports/
+
+# Secrets — the .env file holds real credentials; .env.example is the template.
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output — reproducible from package.json, never committed.
+node_modules/
+dist/
+build/
+.svelte-kit/
+.next/
+coverage/
+
+# Editor and OS noise
+.DS_Store
+.vscode/
+.idea/
+*.log
