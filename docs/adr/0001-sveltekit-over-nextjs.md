@@ -1,6 +1,6 @@
 # 0001 — SvelteKit over Next.js
 
-**Statu*s:* Accepted · **Date:\*\* 2026-09-27
+**Status:** Accepted · **Date:** 2026-09-27
 
 ## Context
 
@@ -32,12 +32,3 @@ The project's purpose is to learn how a web application works, not to learn Reac
 
 - **Next.js 16 (App Router).** Rejected for now: more layers to learn before the request cycle is visible; higher churn in load-bearing conventions across recent majors. Preferred if the goal were industry alignment or hiring.
 - **Plain SPA + separate API.** Ruled out at charting: two projects to learn instead of one, and no server-rendered pages.
-
-What each section is for, since you'll write the next ones yourself:
-
-- Status and Date. ADRs are never edited once accepted. If you change your mind later, you write a new record and set this one's status to "Superseded by 0007". The date tells a future reader how old the reasoning is.
-- Context. The situation and the facts as they were known. Written so a reader who has never seen the project understands the constraints. This section is what makes the decision look reasonable in a year, even if it turns out wrong.
-- Decision. One paragraph, present tense, stated as a fact. No hedging.
-- Rationale. Why this option over the others, tied to the context. This is the part people skip and later regret.
-- Consequences. What you've committed to and what it costs you. Both the good and the bad. This is where the "rebuild, not a port" warning lives so nobody assumes a cheap migration later.
-- Alternatives considered. Proof that the decision was a choice, not a default. Also saves the next person from re-researching a rejected option.
